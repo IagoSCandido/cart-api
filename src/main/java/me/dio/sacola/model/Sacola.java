@@ -30,4 +30,12 @@ public class Sacola {
     @Enumerated
     private FormaPagamento FormaPagamento;
     private Boolean fechada;
+
+    public Boolean isFechada() {
+        return this.fechada;
+    }
+
+    public void setFechada(Boolean fechada) {
+        this.fechada = fechada;
+    }
 }
